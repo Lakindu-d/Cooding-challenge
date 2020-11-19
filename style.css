@@ -1,0 +1,82 @@
+/* backgraound image */
+.container {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* trnsperant text box area */
+.center {
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 59%;
+  padding: 78px;
+}
+/* logo */
+.center>img{
+  margin: auto;
+  width: 150px;
+}
+/* main title */
+#title{
+  color: rgb(18, 248, 28);
+  font-size: 25px;
+  font-weight: bold;
+}
+/* menu buttons */
+.buttons{
+  text-align: center;
+  background-color: rgb(18, 248, 28);
+  margin-right: auto;
+  padding: 4px;
+}
+/* selection  */
+.sections{
+  text-align: left;
+  font-size: 14px;
+}
+/* selection titls */
+#font-size{
+  font-size: 22px;
+}
+/* 1st battery presentage */
+
+hr{
+  width: 27%;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style:solid;
+  border-width: 10px;
+  border-color:rgb(247, 189, 80);
+  position:fixed;
+}
+/* 2nd battery presentage */
+
+#second{
+  width: 50%;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style:solid;
+  border-width: 10px;
+  border-color:rgb(44, 180, 14);
+  position:fixed;
+}
+/* 3rd battery presentage */
+
+#third{
+  width: 10%;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style:solid;
+  border-width: 10px;
+  border-color:rgb(234, 57, 57);
+  position:fixed;
+}
